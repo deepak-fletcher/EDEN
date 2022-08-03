@@ -1,0 +1,26 @@
+.inputField{
+    width: 95%;
+    margin-left:2.5%;
+    margin-right:2.5%;
+    /* box-shadow: .5px .5px .5px .5px; */
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding-left: 8px;
+    height: 40px;
+}
+.submitField{
+    width: 95%;
+    margin-left:2.5%;
+    margin-right:2.5%;
+    margin-top: 20px;
+    /* box-shadow: .5px .5px .5px .5px; */
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding-left: 8px;
+    height: 40px;
+    font-size: small;
+    background-color: #475AFF;
+    color: white;
+}
