@@ -9,9 +9,9 @@ const Setup = () => {
         <div class="flex-none grow h-14">
            
         </div>
-        <div class="w-30 h-14 flex flex-row">
-            <img src={logo} class="m-auto"></img>
-            <p class="text-3xl font-inter m-auto font-extrabold">Eden</p>
+        <div class="w-45 h-14 flex flex-row">
+            <img src={logo} class="m-auto pr-1"></img>
+            <p class="text-3xl font-inter m-auto pl-1 font-extrabold">Eden</p>
         </div>
         <div class="flex-none grow h-14">
         </div>
