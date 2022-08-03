@@ -6,3 +6,54 @@
   font-family: "inter";
   src: url("./fonts/Inter-Regular.otf");
 }
+
+@layer utilities {
+  .inputField{
+    width: 95%;
+    margin-left:2.5%;
+    margin-right:2.5%;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding-left: 8px;
+    height: 40px;
+}
+.submitField{
+  width: 95%;
+  margin-left:2.5%;
+  margin-right:2.5%;
+  margin-top: 20px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  padding-left: 8px;
+  height: 40px;
+  font-size: small;
+  background-color: #475AFF;
+  color: white;
+}
+.urlField{
+  width: 60%;
+  margin-right:2.5%;
+  border-style: solid;
+  border-width: 1px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-left: 8px;
+  height: 40px;
+}
+.labelField{
+  width: 35%;
+  margin-left:2.5%;
+  border-style: solid;
+  border-width: 1px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  height: 40px;
+  padding-top: 7.5px;
+  padding-left:7px;
+  padding-right:7px;
+  display: inline-block;
+  background-color: #ededed;
+}
+}
