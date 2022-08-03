@@ -23,10 +23,11 @@ const SetupForm = (props) => {
                 </p>
                 <p class="text-sm font-inter m-auto font-bold font-inter text-gray-400  pt-4 pb-3 ml-[1%]">(optional)</p>
             </div>
+            <div class="flex flex-row">
+                <p class="labelField align-middle  pt-2.5 pb-2 pl-1 pr-1 text-center text-xs md:text-sm font-inter text-gray-400">www.eden.com/</p>
+                <input class="urlField"  name="inputFieldTwo" placeholder={props.placeHolder2}></input>
+            </div>
             
-            <label class="labelField font-inter text-gray-400">www.eden.com/</label>
-            <input class="urlField"  name="inputFieldTwo" placeholder={props.placeHolder2}>
-            </input>
             <input  type="submit" class="submitField"  value={props.buttonName}>
             </input>
         </form>
