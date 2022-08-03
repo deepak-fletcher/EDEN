@@ -5,16 +5,16 @@ import teams from '../assets/teams.png';
 import ButtonEden from './Button';
 import SetupForm from './SetupForm.js';
 import TopComponent from './TopComponent';
-
+import ProgressBar from './ProgressBar';
 
 const Usage = () => {
   return (
     <div class="mb-[5%] mt-[5%]">
     <TopComponent></TopComponent>
-    <div class="h-[48px] mt-[3%] mb-[3%]">
-            Progress bar
+    <div class="h-[48px] mt-[3%] mb-[3%] w-full md:w-[600px] ml-auto mr-auto">
+                <ProgressBar step="3"></ProgressBar>
     </div>
-    <div class="h-15">
+    <div class="h-15   mt-[20%] md:mt-[5%]">
         <p class="text-2xl md:text-3xl font-inter m-auto font-extrabold">How are you planning to use Eden?</p>
         <p class="text-sm font-inter m-auto font-thin p-5 text-gray-500">We'll streamline your setup experience accordingly.</p>
     </div>

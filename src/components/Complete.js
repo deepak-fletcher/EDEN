@@ -6,14 +6,16 @@ import solo from '../assets/solo.png';
 import teams from '../assets/teams.png';
 import ButtonEden from './Button';
 import SetupForm from './SetupForm.js';
+import ProgressBar from './ProgressBar';
+
 const Complete = () => {
   return (
     <div class="mb-[5%] mt-[5%]">
     <TopComponent></TopComponent>
-    <div class="h-[48px] mt-[3%] mb-[3%]">
-            Progress bar
-    </div>
-    <div class="mt-[1%]">
+    <div class="h-[48px] mt-[3%] mb-[3%] w-full md:w-[600px] ml-auto mr-auto">
+                <ProgressBar step="4"></ProgressBar>
+        </div>
+    <div class=" mt-[20%] md:mt-[5%]">
        <div class="flex flex-row w-[350px] md:w-[400px] space-x-[10px] md:space-x-[20px] h-[185px] m-auto">
        <img src={complete} class="m-auto"></img>
             
