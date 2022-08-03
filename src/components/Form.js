@@ -1,5 +1,4 @@
 import React from 'react'
-import '../stylesheets/style.css'
 
 
 const onSubmit = () =>{
@@ -13,14 +12,14 @@ const Form = () => {
             <p class="text-sm font-inter m-auto font-bold pl-2 pt-4 pb-3 ml-[1%]">
                 Full Name
             </p>
-            <input className="inputField"  name="inputFieldOne" placeholder='Steve Jobs'>
+            <input class="inputField"  name="inputFieldOne" placeholder='Steve Jobs'>
             </input>
             <p class="text-sm font-inter m-auto font-bold pl-2 pt-4 pb-3 ml-[1%]">
                 Display Name
             </p>
-            <input className="inputField"  name="inputFieldTwo" placeholder='Steve Jobs'>
+            <input class="inputField"  name="inputFieldTwo" placeholder='Steve Jobs'>
             </input>
-            <input  type="submit" className="submitField"  value="Create Workspace">
+            <input  type="submit" class="submitField"  value="Create Workspace">
             </input>
         </form>
     </div>
