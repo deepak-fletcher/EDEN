@@ -4,21 +4,13 @@ import solo from '../assets/solo.png';
 import teams from '../assets/teams.png';
 import ButtonEden from './Button';
 import SetupForm from './SetupForm.js';
+import TopComponent from './TopComponent';
+
+
 const Usage = () => {
   return (
     <div class="mb-[5%] mt-[5%]">
-    <div class="flex flex-row">
-        <div class="flex-none grow h-14">
-           
-        </div>
-        <div class="w-45 h-14 flex flex-row">
-            <img src={logo} class="m-auto pr-1"></img>
-            <p class="text-3xl font-inter m-auto pl-1 font-extrabold">Eden</p>
-        </div>
-        <div class="flex-none grow h-14">
-        </div>
-                   
-    </div>
+    <TopComponent></TopComponent>
     <div class="h-[48px] mt-[3%] mb-[3%]">
             Progress bar
     </div>
