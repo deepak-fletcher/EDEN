@@ -11,7 +11,7 @@ const SetupForm = (props) => {
     }
   return (
     <div class="mt-[1%]">
-        <form onSubmit={onSubmit} class="w-[400px] text-left m-auto">
+        <form onSubmit={onSubmit} class="w-[400px] md:w-[400px] text-left m-auto">
             <p class="text-sm font-inter m-auto font-bold pl-2 pt-4 pb-3 ml-[1%]">
                 {props.label1}
             </p>
