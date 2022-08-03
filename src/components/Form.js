@@ -22,7 +22,7 @@ const Form = (props) => {
             </p>
             <input class="inputField"  name="inputFieldTwo" placeholder={props.placeHolder2}>
             </input>
-            <input  type="submit" class="submitField"  value={props.buttonName}>
+            <input  type="submit" class="submitField hover:bg-[#7D7DFF] hover:cursor-pointer"  value={props.buttonName}>
             </input>
         </form>
     </div>

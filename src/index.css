@@ -52,4 +52,10 @@
   height: 40px;
   background-color: #ededed;
 }
+
+.boxes{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
 }

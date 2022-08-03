@@ -4,8 +4,8 @@ import Form from './Form.js'
 
 const Welcome = () => {
   return (
-    <div class="mb-[5%]">
-        <div class="flex flex-row mt-[5%]">
+    <div class="mb-[5%] mt-[5%]">
+        <div class="flex flex-row">
             <div class="flex-none grow h-14">
                
             </div>

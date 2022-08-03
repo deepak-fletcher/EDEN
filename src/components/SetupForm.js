@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 const SetupForm = (props) => {
     let navigate = useNavigate();
     const onSubmit = () =>{
-        navigate("/setup")
+        navigate("/usage")
     }
   return (
     <div class="mt-[1%]">
@@ -28,7 +28,7 @@ const SetupForm = (props) => {
                 <input class="urlField"  name="inputFieldTwo" placeholder={props.placeHolder2}></input>
             </div>
             
-            <input  type="submit" class="submitField"  value={props.buttonName}>
+            <input  type="submit" class="submitField hover:bg-[#7D7DFF] hover:cursor-pointer"  value={props.buttonName}>
             </input>
         </form>
     </div>
