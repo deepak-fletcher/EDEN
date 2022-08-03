@@ -25,7 +25,7 @@ const Welcome = () => {
             <p class="text-sm font-inter m-auto font-thin p-5 text-gray-500">You can always change them later.</p>
         </div>
         <div>
-            <Form></Form>
+            <Form label1="Full Name" label2="Display Name" placeHolder1="Steve Jobs" placeHolder2="Steve" buttonName="Create Workspace"></Form>
         </div>
         
     </div>
