@@ -28,7 +28,7 @@ const SetupForm = (props) => {
                 <input class="urlField"  name="inputFieldTwo" placeholder={props.placeHolder2}></input>
             </div>
             
-            <input  type="submit" class="submitField hover:bg-[#7D7DFF] hover:cursor-pointer"  value={props.buttonName}>
+            <input  type="submit" class="submitField hover:bg-[#7D7DFF] hover:cursor-pointer focus:bg-[#7D7DFF]"  value={props.buttonName}>
             </input>
         </form>
     </div>

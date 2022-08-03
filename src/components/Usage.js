@@ -49,7 +49,7 @@ const Usage = () => {
         <div class="flex-none grow">
            
         </div>
-        <p class="submitField hover:bg-[#7D7DFF] w-[350px] md:w-[400px] p-2 hover:cursor-pointer">Create Workspace</p>
+        <p class="submitField hover:bg-[#7D7DFF] w-[350px] md:w-[400px] p-2 hover:cursor-pointer focus:bg-[#7D7DFF]">Create Workspace</p>
         <div class="flex-none grow">
         </div>
                    
