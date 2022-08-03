@@ -2,6 +2,7 @@ import React from 'react'
 import logo from '../assets/logo.png';
 import solo from '../assets/solo.png';
 import teams from '../assets/teams.png';
+import ButtonEden from './Button';
 import SetupForm from './SetupForm.js';
 const Usage = () => {
   return (
@@ -45,16 +46,7 @@ const Usage = () => {
             </div>
             
        </div>
-       <div class="flex flex-row">
-        <div class="flex-none grow">
-           
-        </div>
-        <p class="submitField hover:bg-[#7D7DFF] w-[350px] md:w-[400px] p-2 hover:cursor-pointer focus:bg-[#7D7DFF]">Create Workspace</p>
-        <div class="flex-none grow">
-        </div>
-                   
-    </div>
-       
+       <ButtonEden nav="/complete" name="Create Workspace"></ButtonEden>
     </div>
     
     
