@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useNavigate } from "react-router-dom";
 
 
@@ -6,24 +6,31 @@ const Form = (props) => {
     let [name,setName] = useState("")
     let [displayName,setDisplayName] = useState("")
     let navigate = useNavigate();
+    let [error,setError]=useState("0")
 
-
+    useEffect(() => {
+  }, [error]);
     const handleName=(e)=>{
         setName(e.target.value)
+        setError(0)
     }
     const handleDisplay=(e)=>{
         setDisplayName(e.target.value)
+        setError(0)
     }
-    const onSubmit = () =>{
+    const onSubmit = (event) =>{
         console.log(name,displayName)
         if(name!==''&&displayName!=='')
         {
+            setError(0)
             navigate("/setup")
             props.valueOfName(name)
         }
         else 
         {
+            setError(1)
             alert("Enter the values")
+            event.preventDefault();
         }
         
     }
@@ -45,11 +52,11 @@ const Form = (props) => {
             </input>
             
         </form>
-        {/* <div>
-            {props.error===1 &&
-                <p class="margin-auto pt-5 text-red-600">Please enter the values</p>
+        <div>
+            {error===1 &&
+                <p class="margin-auto pt-1 text-red-600">Please enter the values</p>
             }   
-        </div> */}
+        </div>
     </div>
   )
 }
