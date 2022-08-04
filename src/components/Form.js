@@ -29,7 +29,6 @@ const Form = (props) => {
         else 
         {
             setError(1)
-            alert("Enter the values")
             event.preventDefault();
         }
         
