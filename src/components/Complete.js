@@ -8,7 +8,7 @@ import ButtonEden from './Button';
 import SetupForm from './SetupForm.js';
 import ProgressBar from './ProgressBar';
 
-const Complete = () => {
+const Complete = (props) => {
   return (
     <div class="mb-[5%] mt-[5%]">
     <TopComponent></TopComponent>
@@ -22,7 +22,7 @@ const Complete = () => {
        </div>
     </div>
     <div class="h-15">
-        <p class="text-2xl md:text-3xl font-inter m-auto font-extrabold">Congratulations, Eren!</p>
+        <p class="text-2xl md:text-3xl font-inter m-auto font-extrabold">Congratulations, {props.name}!</p>
         <p class="text-sm font-inter m-auto font-thin p-5 text-gray-500">You have completed onboarding, you can start using Eden!</p>
     </div>
     <div >

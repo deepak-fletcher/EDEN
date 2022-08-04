@@ -4,7 +4,7 @@ import Form from './Form.js'
 import TopComponent from './TopComponent';
 import ProgressBar from './ProgressBar';
 
-const Welcome = () => {
+const Welcome = (props) => {
   
   // let [error, setError] = useState(0)
   // const changeValue = () =>{
@@ -13,7 +13,10 @@ const Welcome = () => {
 
   // useEffect(() => {
   // }, [error]);
-
+  const valueOfName=(e)=>{
+    props.valueOfName(e)
+    console.log("Welcome "+e)
+  }
   
 
   return (
@@ -27,7 +30,7 @@ const Welcome = () => {
             <p class="text-sm font-inter m-auto font-thin p-5 text-gray-500">You can always change them later.</p>
         </div>
         <div>
-            <Form label1="Full Name" label2="Display Name" placeHolder1="Steve Jobs" placeHolder2="Steve" buttonName="Create Workspace"></Form>
+            <Form label1="Full Name" label2="Display Name" placeHolder1="Steve Jobs" placeHolder2="Steve" buttonName="Create Workspace"  valueOfName={valueOfName}></Form>
         </div>
         
     </div>

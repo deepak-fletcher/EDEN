@@ -19,6 +19,7 @@ const Form = (props) => {
         if(name!==''&&displayName!=='')
         {
             navigate("/setup")
+            props.valueOfName(name)
         }
         else 
         {
