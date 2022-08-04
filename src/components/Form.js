@@ -53,7 +53,7 @@ const Form = (props) => {
         </form>
         <div>
             {error===1 &&
-                <p class="margin-auto pt-1 text-red-600">Please enter the values</p>
+                <p class="margin-auto pt-1 text-[#475AFF]">Please enter the values</p>
             }   
         </div>
     </div>

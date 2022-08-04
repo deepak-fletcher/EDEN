@@ -26,7 +26,7 @@ const ButtonEden = (props) => {
     </div>
     <div>
             {error===1 &&
-                <p class="margin-auto pt-1 text-red-600">Please select an option</p>
+                <p class="margin-auto pt-1 text-[#475AFF]">Please select an option</p>
             }   
         </div>
     </div>

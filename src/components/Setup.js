@@ -11,7 +11,7 @@ const Setup = () => {
     <div class="h-[48px] mt-[3%] mb-[3%] w-full md:w-[600px] ml-auto mr-auto">
               <ProgressBar step="2"></ProgressBar>
     </div>
-    <div class="h-15  mt-[50px] md:mt-[100px]">
+    <div class="h-15  mt-[50px] md:mt-[80px]">
         <p class="text-2xl md:text-3xl font-inter m-auto font-extrabold">Lets set up a home for all your work</p>
         <p class="text-sm font-inter m-auto font-thin p-5 text-gray-500">You can always create another workspace later.</p>
     </div>

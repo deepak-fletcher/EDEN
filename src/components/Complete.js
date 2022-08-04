@@ -15,7 +15,7 @@ const Complete = (props) => {
     <div class="h-[48px] mt-[3%] mb-[3%] w-full md:w-[600px] ml-auto mr-auto">
                 <ProgressBar step="4"></ProgressBar>
         </div>
-    <div class=" mt-[50px] md:mt-[100px]">
+    <div class=" mt-[50px] md:mt-[80px]">
        <div class="flex flex-row w-[350px] md:w-[400px] space-x-[10px] md:space-x-[20px] h-[185px] m-auto">
        <img src={complete} class="m-auto"></img>
             
