@@ -1,10 +1,21 @@
-import React from 'react';
+import {React, useState, useEffect} from 'react';
 import logo from '../assets/logo.png';
 import Form from './Form.js'
 import TopComponent from './TopComponent';
 import ProgressBar from './ProgressBar';
 
 const Welcome = () => {
+  
+  // let [error, setError] = useState(0)
+  // const changeValue = () =>{
+  //   setError(1)
+  // }
+
+  // useEffect(() => {
+  // }, [error]);
+
+  
+
   return (
     <div class="mb-[5%] mt-[5%]">
         <TopComponent></TopComponent>
