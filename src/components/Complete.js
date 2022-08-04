@@ -15,7 +15,7 @@ const Complete = (props) => {
       <TopComponent></TopComponent>
 
       {/* Div tagthat contains the progress bar component */}
-      <div class="h-[48px] mt-[3%] mb-[3%] w-[350px]] md:w-[450px] ml-auto mr-auto">
+      <div class="h-[48px] mt-[3%] mb-[3%] w-[350px] md:w-[450px] ml-auto mr-auto">
         {/*Progress bar component with value 1 being passed as a prop so that the first section of the progress abr can be highlighted*/}
         <ProgressBar step="4"></ProgressBar>
       </div>
