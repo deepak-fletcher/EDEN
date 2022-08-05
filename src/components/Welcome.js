@@ -1,4 +1,4 @@
-import { React, useState, useEffect } from "react";
+import { React } from "react";
 import Form from "./Form.js";
 import TopComponent from "./TopComponent";
 import ProgressBar from "./ProgressBar";
@@ -7,7 +7,7 @@ const Welcome = (props) => {
   // sending the name  of the registered user to the parent component using function
   const valueOfName = (e) => {
     props.valueOfName(e);
-    console.log("Welcome " + e);
+    // console.log("Welcome " + e);
   };
 
   return (

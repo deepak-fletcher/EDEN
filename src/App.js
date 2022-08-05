@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Welcome from "./components/Welcome";
@@ -11,7 +10,7 @@ function App() {
   const [name, setName] = useState("");
   const valueOfName = (e) => {
     setName(e);
-    console.log("route " + e);
+    // console.log("route " + e);
   };
   return (
     <div className="App">

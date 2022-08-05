@@ -2,7 +2,7 @@ import React from "react";
 
 const ProgressBar = (props) => {
   let step = props.step;
-  console.log(props);
+  // console.log(props);
   return (
     <div class="p-4 flex justify-between items-center">
       <div class="relative flex flex-col items-center text-gray-600">

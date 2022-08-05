@@ -1,11 +1,7 @@
 import React from "react";
-import logo from "../assets/logo.png";
 import TopComponent from "./TopComponent";
 import complete from "../assets/complete.png";
-import solo from "../assets/solo.png";
-import teams from "../assets/teams.png";
 import ButtonEden from "./Button";
-import SetupForm from "./SetupForm.js";
 import ProgressBar from "./ProgressBar";
 
 const Complete = (props) => {

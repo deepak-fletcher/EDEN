@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const Form = (props) => {
@@ -8,8 +8,6 @@ const Form = (props) => {
   let [error, setError] = useState("0");
   let navigate = useNavigate();
 
-  // useEffect(() => {
-  // }, [error]);
 
   //saves the changes taking place in Name field into name variable
   const handleName = (e) => {
@@ -25,8 +23,8 @@ const Form = (props) => {
 
   //Handles the functionalities when the submit button of the form is clicked and performs a very basic check on the form fields and displays appropriate message
   const onSubmit = (event) => {
-    console.log(name, displayName);
-    if (name !== "" && displayName !== "") {
+    // console.log(name, displayName);
+    if (name !== "" && displayName !== "" && /[a-zA-Z]/g.test(name) && /[a-zA-Z]/g.test(displayName)) {
       setError(0);
       navigate("/setup");
       props.valueOfName(name);

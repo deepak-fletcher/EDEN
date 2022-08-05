@@ -1,11 +1,9 @@
 import { React, useState } from "react";
-import logo from "../assets/logo.png";
 import solo from "../assets/solo.png";
 import solooff from "../assets/solooff.png";
 import teams from "../assets/teams.png";
 import teamson from "../assets/teamson.png";
 import ButtonEden from "./Button";
-import SetupForm from "./SetupForm.js";
 import TopComponent from "./TopComponent";
 import ProgressBar from "./ProgressBar";
 
